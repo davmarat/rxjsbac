@@ -1,0 +1,31 @@
+{
+  "name": "helpdeskbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davmarat/rxjsbac.git"
+  },
+  "author": "mrt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davmarat/rxjsbac/issues"
+  },
+  "homepage": "https://github.com/davmarat/rxjsbac#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "faker": "^5.5.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "node-unique-id-generator": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
